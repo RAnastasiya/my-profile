@@ -1,0 +1,56 @@
+.title{
+    position: absolute;
+    width: 100%;
+    padding: 50px 0 150px;
+}
+.start {
+    font-size: 24px;
+    font-style: normal;
+    text-transform: none;
+    text-align: center;
+    margin: 15px 0;
+    color: #fff;
+}
+h1{
+    color: #fff;
+}
+
+.scroll-down {
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: -15px;
+    display: block;
+    z-index: 10;
+    text-align: center;
+}
+.arrow {
+    margin: 12px 17px;
+}
+.arrow span {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    transform: rotate(45deg);
+    animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-10px,-10px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(10px,10px);
+    }
+}

@@ -1,0 +1,26 @@
+.hire-me{
+    width: 100%;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed !important;
+}
+.grey-area{
+    padding: 120px 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+.hire-me-btn{
+    width: fit-content;
+    padding: 18px 27px;
+    margin: 0 auto;
+    border: 1px solid #f5f5f5;
+    color: #f5f5f5;
+    font-size: 19px;
+    cursor: pointer;
+}
+.hire-me-btn:hover{
+    background: #f5f5f5;
+    color: #222222;
+}

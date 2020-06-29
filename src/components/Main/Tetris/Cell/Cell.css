@@ -1,0 +1,25 @@
+.cell {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.fill {
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.fill::after{
+    content: '';
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    left: 12%;
+    top: 11%;
+    border: 1px solid #8BC34A;
+}
+
+.active {
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
